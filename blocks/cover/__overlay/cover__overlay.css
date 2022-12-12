@@ -28,16 +28,15 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cover__overlay {
-    width: 100%;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 612px) {
   .cover__overlay {
-    max-width: 768px;
+    background-size: contain;
   }
 }
 
